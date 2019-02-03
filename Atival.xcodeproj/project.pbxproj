@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D24A5692206953E004694A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24A5682206953E004694A5 /* AppDelegate.swift */; };
+		1D24A56B2206953E004694A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24A56A2206953E004694A5 /* ViewController.swift */; };
+		1D24A56E2206953E004694A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D24A56C2206953E004694A5 /* Main.storyboard */; };
+		1D24A5712206953E004694A5 /* Atival.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D24A56F2206953E004694A5 /* Atival.xcdatamodeld */; };
+		1D24A57322069541004694A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D24A57222069541004694A5 /* Assets.xcassets */; };
+		1D24A57622069541004694A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D24A57422069541004694A5 /* LaunchScreen.storyboard */; };
+		1D24A58122069541004694A5 /* AtivalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24A58022069541004694A5 /* AtivalTests.swift */; };
+		1D24A58C22069541004694A5 /* AtivalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24A58B22069541004694A5 /* AtivalUITests.swift */; };
+		1D24A59B22069F6C004694A5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D24A59A22069F6C004694A5 /* MapKit.framework */; };
+		1D24A59D2206A14D004694A5 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24A59C2206A14D004694A5 /* Event.swift */; };
+		1D24A5A12206A404004694A5 /* EquipamentoPublico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24A5A02206A404004694A5 /* EquipamentoPublico.swift */; };
+		1D24A5A32206A5C7004694A5 /* BikePEStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24A5A22206A5C7004694A5 /* BikePEStations.swift */; };
+		1D24A5A52206B3CD004694A5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24A5A42206B3CD004694A5 /* Model.swift */; };
+		62C477480B7EA4A83E8077F9 /* Pods_Atival.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6FECD5C7AA0493982A5F77 /* Pods_Atival.framework */; };
+		C13088D291BC2DC24E46F26F /* Pods_AtivalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BF61B78A8EC2D6C16DC896 /* Pods_AtivalUITests.framework */; };
+		C7A4E40B15EAB90A9F86B029 /* Pods_AtivalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E86A73808E4F3199961A1CE /* Pods_AtivalTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D24A57D22069541004694A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D24A55D2206953E004694A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D24A5642206953E004694A5;
+			remoteInfo = Atival;
+		};
+		1D24A58822069541004694A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D24A55D2206953E004694A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D24A5642206953E004694A5;
+			remoteInfo = Atival;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D24A5652206953E004694A5 /* Atival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atival.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D24A5682206953E004694A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D24A56A2206953E004694A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D24A56D2206953E004694A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D24A5702206953E004694A5 /* Atival.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Atival.xcdatamodel; sourceTree = "<group>"; };
+		1D24A57222069541004694A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D24A57522069541004694A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D24A57722069541004694A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D24A57C22069541004694A5 /* AtivalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtivalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D24A58022069541004694A5 /* AtivalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtivalTests.swift; sourceTree = "<group>"; };
+		1D24A58222069541004694A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D24A58722069541004694A5 /* AtivalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtivalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D24A58B22069541004694A5 /* AtivalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtivalUITests.swift; sourceTree = "<group>"; };
+		1D24A58D22069541004694A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D24A59A22069F6C004694A5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1D24A59C2206A14D004694A5 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		1D24A5A02206A404004694A5 /* EquipamentoPublico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipamentoPublico.swift; sourceTree = "<group>"; };
+		1D24A5A22206A5C7004694A5 /* BikePEStations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikePEStations.swift; sourceTree = "<group>"; };
+		1D24A5A42206B3CD004694A5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		70BF61B78A8EC2D6C16DC896 /* Pods_AtivalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AtivalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77643D549BA9493C2A08AB13 /* Pods-AtivalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtivalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AtivalTests/Pods-AtivalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BA281C0F94833FE8E9FAE2A /* Pods-AtivalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtivalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AtivalTests/Pods-AtivalTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A78CD6DD155937BD49CDF6E /* Pods-Atival.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atival.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Atival/Pods-Atival.debug.xcconfig"; sourceTree = "<group>"; };
+		9AA7A437105653244F7DCA60 /* Pods-AtivalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtivalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AtivalUITests/Pods-AtivalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E86A73808E4F3199961A1CE /* Pods_AtivalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AtivalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B52BEF563FCC5D21ED98275C /* Pods-Atival.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atival.release.xcconfig"; path = "Pods/Target Support Files/Pods-Atival/Pods-Atival.release.xcconfig"; sourceTree = "<group>"; };
+		D1450B8AB7DF7E6368C8DE6C /* Pods-AtivalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtivalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AtivalUITests/Pods-AtivalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD6FECD5C7AA0493982A5F77 /* Pods_Atival.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Atival.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D24A5622206953E004694A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D24A59B22069F6C004694A5 /* MapKit.framework in Frameworks */,
+				62C477480B7EA4A83E8077F9 /* Pods_Atival.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D24A57922069541004694A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A4E40B15EAB90A9F86B029 /* Pods_AtivalTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D24A58422069541004694A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13088D291BC2DC24E46F26F /* Pods_AtivalUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D24A55C2206953E004694A5 = {
+			isa = PBXGroup;
+			children = (
+				1D24A5672206953E004694A5 /* Atival */,
+				1D24A57F22069541004694A5 /* AtivalTests */,
+				1D24A58A22069541004694A5 /* AtivalUITests */,
+				1D24A5662206953E004694A5 /* Products */,
+				1D24A59922069F6C004694A5 /* Frameworks */,
+				B1C7C8EE82EF633F54F372DB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		1D24A5662206953E004694A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D24A5652206953E004694A5 /* Atival.app */,
+				1D24A57C22069541004694A5 /* AtivalTests.xctest */,
+				1D24A58722069541004694A5 /* AtivalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D24A5672206953E004694A5 /* Atival */ = {
+			isa = PBXGroup;
+			children = (
+				1D24A5682206953E004694A5 /* AppDelegate.swift */,
+				1D24A56A2206953E004694A5 /* ViewController.swift */,
+				1D24A56C2206953E004694A5 /* Main.storyboard */,
+				1D24A57222069541004694A5 /* Assets.xcassets */,
+				1D24A57422069541004694A5 /* LaunchScreen.storyboard */,
+				1D24A57722069541004694A5 /* Info.plist */,
+				1D24A56F2206953E004694A5 /* Atival.xcdatamodeld */,
+				1D24A59C2206A14D004694A5 /* Event.swift */,
+				1D24A5A02206A404004694A5 /* EquipamentoPublico.swift */,
+				1D24A5A22206A5C7004694A5 /* BikePEStations.swift */,
+				1D24A5A42206B3CD004694A5 /* Model.swift */,
+			);
+			path = Atival;
+			sourceTree = "<group>";
+		};
+		1D24A57F22069541004694A5 /* AtivalTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D24A58022069541004694A5 /* AtivalTests.swift */,
+				1D24A58222069541004694A5 /* Info.plist */,
+			);
+			path = AtivalTests;
+			sourceTree = "<group>";
+		};
+		1D24A58A22069541004694A5 /* AtivalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D24A58B22069541004694A5 /* AtivalUITests.swift */,
+				1D24A58D22069541004694A5 /* Info.plist */,
+			);
+			path = AtivalUITests;
+			sourceTree = "<group>";
+		};
+		1D24A59922069F6C004694A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D24A59A22069F6C004694A5 /* MapKit.framework */,
+				DD6FECD5C7AA0493982A5F77 /* Pods_Atival.framework */,
+				9E86A73808E4F3199961A1CE /* Pods_AtivalTests.framework */,
+				70BF61B78A8EC2D6C16DC896 /* Pods_AtivalUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1C7C8EE82EF633F54F372DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A78CD6DD155937BD49CDF6E /* Pods-Atival.debug.xcconfig */,
+				B52BEF563FCC5D21ED98275C /* Pods-Atival.release.xcconfig */,
+				77643D549BA9493C2A08AB13 /* Pods-AtivalTests.debug.xcconfig */,
+				8BA281C0F94833FE8E9FAE2A /* Pods-AtivalTests.release.xcconfig */,
+				D1450B8AB7DF7E6368C8DE6C /* Pods-AtivalUITests.debug.xcconfig */,
+				9AA7A437105653244F7DCA60 /* Pods-AtivalUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D24A5642206953E004694A5 /* Atival */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D24A59022069541004694A5 /* Build configuration list for PBXNativeTarget "Atival" */;
+			buildPhases = (
+				6587514C12219914AA20488D /* [CP] Check Pods Manifest.lock */,
+				1D24A5612206953E004694A5 /* Sources */,
+				1D24A5622206953E004694A5 /* Frameworks */,
+				1D24A5632206953E004694A5 /* Resources */,
+				7455D9BE66FA1F0776B2338C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Atival;
+			productName = Atival;
+			productReference = 1D24A5652206953E004694A5 /* Atival.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D24A57B22069541004694A5 /* AtivalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D24A59322069541004694A5 /* Build configuration list for PBXNativeTarget "AtivalTests" */;
+			buildPhases = (
+				04F997DDCC924474E0025D52 /* [CP] Check Pods Manifest.lock */,
+				1D24A57822069541004694A5 /* Sources */,
+				1D24A57922069541004694A5 /* Frameworks */,
+				1D24A57A22069541004694A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D24A57E22069541004694A5 /* PBXTargetDependency */,
+			);
+			name = AtivalTests;
+			productName = AtivalTests;
+			productReference = 1D24A57C22069541004694A5 /* AtivalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D24A58622069541004694A5 /* AtivalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D24A59622069541004694A5 /* Build configuration list for PBXNativeTarget "AtivalUITests" */;
+			buildPhases = (
+				382C66CA9CF2E053451529E7 /* [CP] Check Pods Manifest.lock */,
+				1D24A58322069541004694A5 /* Sources */,
+				1D24A58422069541004694A5 /* Frameworks */,
+				1D24A58522069541004694A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D24A58922069541004694A5 /* PBXTargetDependency */,
+			);
+			name = AtivalUITests;
+			productName = AtivalUITests;
+			productReference = 1D24A58722069541004694A5 /* AtivalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D24A55D2206953E004694A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Sávio Berdine";
+				TargetAttributes = {
+					1D24A5642206953E004694A5 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					1D24A57B22069541004694A5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1D24A5642206953E004694A5;
+					};
+					1D24A58622069541004694A5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1D24A5642206953E004694A5;
+					};
+				};
+			};
+			buildConfigurationList = 1D24A5602206953E004694A5 /* Build configuration list for PBXProject "Atival" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D24A55C2206953E004694A5;
+			productRefGroup = 1D24A5662206953E004694A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D24A5642206953E004694A5 /* Atival */,
+				1D24A57B22069541004694A5 /* AtivalTests */,
+				1D24A58622069541004694A5 /* AtivalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D24A5632206953E004694A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D24A57622069541004694A5 /* LaunchScreen.storyboard in Resources */,
+				1D24A57322069541004694A5 /* Assets.xcassets in Resources */,
+				1D24A56E2206953E004694A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D24A57A22069541004694A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D24A58522069541004694A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04F997DDCC924474E0025D52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AtivalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		382C66CA9CF2E053451529E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AtivalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6587514C12219914AA20488D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Atival-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7455D9BE66FA1F0776B2338C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Atival/Pods-Atival-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Atival/Pods-Atival-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D24A5612206953E004694A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D24A5A52206B3CD004694A5 /* Model.swift in Sources */,
+				1D24A59D2206A14D004694A5 /* Event.swift in Sources */,
+				1D24A5A12206A404004694A5 /* EquipamentoPublico.swift in Sources */,
+				1D24A5A32206A5C7004694A5 /* BikePEStations.swift in Sources */,
+				1D24A56B2206953E004694A5 /* ViewController.swift in Sources */,
+				1D24A5692206953E004694A5 /* AppDelegate.swift in Sources */,
+				1D24A5712206953E004694A5 /* Atival.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D24A57822069541004694A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D24A58122069541004694A5 /* AtivalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D24A58322069541004694A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D24A58C22069541004694A5 /* AtivalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D24A57E22069541004694A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D24A5642206953E004694A5 /* Atival */;
+			targetProxy = 1D24A57D22069541004694A5 /* PBXContainerItemProxy */;
+		};
+		1D24A58922069541004694A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D24A5642206953E004694A5 /* Atival */;
+			targetProxy = 1D24A58822069541004694A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D24A56C2206953E004694A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D24A56D2206953E004694A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D24A57422069541004694A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D24A57522069541004694A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D24A58E22069541004694A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D24A58F22069541004694A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D24A59122069541004694A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A78CD6DD155937BD49CDF6E /* Pods-Atival.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PFDZE6A86;
+				INFOPLIST_FILE = Atival/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = savio.berdine.Atival;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D24A59222069541004694A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B52BEF563FCC5D21ED98275C /* Pods-Atival.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PFDZE6A86;
+				INFOPLIST_FILE = Atival/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = savio.berdine.Atival;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1D24A59422069541004694A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77643D549BA9493C2A08AB13 /* Pods-AtivalTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PFDZE6A86;
+				INFOPLIST_FILE = AtivalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = savio.berdine.AtivalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atival.app/Atival";
+			};
+			name = Debug;
+		};
+		1D24A59522069541004694A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA281C0F94833FE8E9FAE2A /* Pods-AtivalTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PFDZE6A86;
+				INFOPLIST_FILE = AtivalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = savio.berdine.AtivalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atival.app/Atival";
+			};
+			name = Release;
+		};
+		1D24A59722069541004694A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1450B8AB7DF7E6368C8DE6C /* Pods-AtivalUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PFDZE6A86;
+				INFOPLIST_FILE = AtivalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = savio.berdine.AtivalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Atival;
+			};
+			name = Debug;
+		};
+		1D24A59822069541004694A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA7A437105653244F7DCA60 /* Pods-AtivalUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PFDZE6A86;
+				INFOPLIST_FILE = AtivalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = savio.berdine.AtivalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Atival;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D24A5602206953E004694A5 /* Build configuration list for PBXProject "Atival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D24A58E22069541004694A5 /* Debug */,
+				1D24A58F22069541004694A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D24A59022069541004694A5 /* Build configuration list for PBXNativeTarget "Atival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D24A59122069541004694A5 /* Debug */,
+				1D24A59222069541004694A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D24A59322069541004694A5 /* Build configuration list for PBXNativeTarget "AtivalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D24A59422069541004694A5 /* Debug */,
+				1D24A59522069541004694A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D24A59622069541004694A5 /* Build configuration list for PBXNativeTarget "AtivalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D24A59722069541004694A5 /* Debug */,
+				1D24A59822069541004694A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1D24A56F2206953E004694A5 /* Atival.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1D24A5702206953E004694A5 /* Atival.xcdatamodel */,
+			);
+			currentVersion = 1D24A5702206953E004694A5 /* Atival.xcdatamodel */;
+			path = Atival.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1D24A55D2206953E004694A5 /* Project object */;
+}
